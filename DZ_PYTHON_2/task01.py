@@ -30,7 +30,7 @@ def float_namber(num: any):
 
 # Решеие задачи через строку
 
-def float_namber(number: any):
+def sum_of_namber(number: any):
     summa = 0
     num = str(number).replace(".", "")
     for index in num:
@@ -38,5 +38,5 @@ def float_namber(number: any):
     return summa
 
 number = input("Enter your number? ")
-print(f'{number} ->', float_namber(number))
+print(f'{number} ->', sum_of_namber(number))
 
