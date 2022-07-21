@@ -10,3 +10,4 @@ for i in range(1, n +1 ):
     print(f'{count}: {round(result)}', end=', ')
     summ += result
 print(f'\nсумма числел {round(summ)}')
+
